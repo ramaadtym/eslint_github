@@ -21,7 +21,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Test Eslint on github Action 001
         </a>
       </header>
     </div>
