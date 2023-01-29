@@ -27,8 +27,8 @@ jobs: # list of things to do
 
       - name: Run eslint on changed files
         uses: tj-actions/eslint-changed-files@v18
-         with:
-          config_path: "../eslintrc.yml"
+        with:
+          config_path: "/path/to/.eslintrc"
         
       # - name: Code Linting
       #   run: npm run lint
