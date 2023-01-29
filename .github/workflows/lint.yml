@@ -15,7 +15,7 @@ jobs: # list of things to do
     runs-on: ubuntu-latest # on which machine to run
     steps: # list of steps
       - name: Install NodeJS
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
 
@@ -27,8 +27,9 @@ jobs: # list of things to do
 
       - name: Run eslint on changed files
         uses: tj-actions/eslint-changed-files@v18
-        with: 
+        with:
+          reporter: "github-check"
           token: ${{ secrets.GITHUB_TOKEN }}
-          
+
       # - name: Code Linting
       #   run: npm run lint
