@@ -25,5 +25,8 @@ jobs: # list of things to do
       - name: Install Dependencies
         run: npm ci
 
-      - name: Code Linting
-        run: npm run lint
+      - name: Run eslint on changed files
+        uses: tj-actions/eslint-changed-files@v18
+        
+      # - name: Code Linting
+      #   run: npm run lint
