@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   var foo = {
     bar: "baz",
-    qux: "quux"
+    qux: "quux",
 };
 
   return (
