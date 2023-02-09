@@ -22,8 +22,8 @@ settings:
 rules:
   {
     "no-unused-vars": "off",
-    # "comma-dangle": "off",
+    "comma-dangle": "off",
     "@typescript-eslint/no-unused-vars": "error",
-    # "@typescript-eslint/comma-dangle": "error",
-    # "@typescript-eslint/quotes": ["error", "double"],
+    "@typescript-eslint/comma-dangle": "error",
+    "@typescript-eslint/quotes": ["error", "double"],
   }
