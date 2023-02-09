@@ -1,0 +1,24 @@
+{
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "tabWidth": 2,
+  "endOfLine": "lf",
+  "printWidth": 120,
+  "importOrder": [
+    "react",
+    "^redux",
+    "^recompose",
+    "^antd",
+    "^copy",
+    "^prop",
+    "validator",
+    "^moment",
+    "^@",
+    "^material",
+    "helper",
+    ".svg|.jpg|.png|.jpeg",
+    ".scss|.css|.min.css",
+    "^[./]"
+  ],
+  "importOrderSeparation": true
+}
